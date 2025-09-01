@@ -1,0 +1,14 @@
+{
+  "name": "smart-reply-api",
+  "version": "0.1.0",
+  "description": "AI-powered response generator",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
