@@ -1,27 +1,21 @@
-# SmartReplyAPI
+# SmartReplyAPI — AI-Powered Response Generator
 
-AI-Powered Response Generator (Node.js, Express, REST, JWT, Gemini)
+## Project Overview
+SmartReplyAPI is a **secure AI-powered response generation platform** that integrates with the Gemini API to produce intelligent replies for chat and email. It leverages prompt engineering and modular RESTful endpoints to deliver polished, context-aware text efficiently.
 
-Features:
+## Features
+- **AI-Generated Responses:** Generates intelligent replies for chat and email using Gemini API.
+- **Secure Authentication:** JWT-based authentication for protected endpoints.
+- **Tone Conversion & Text Polishing:** Supports multiple writing styles and improves readability.
+- **Modular API Design:** Scalable endpoints for easy integration with other applications.
+- **Prompt Optimization:** Efficient prompt engineering for faster and more accurate AI responses.
 
-JWT-based Authentication (Register/Login, token verification)
+## Tech Stack
+- **Backend:** Node.js, Express.js  
+- **API:** RESTful API with JWT authentication  
+- **AI Integration:** Gemini API, Machine Learning (Prompt Engineering)  
 
-Secure AI Endpoints (polish, tone, reply)
-
-Gemini API Integration for real AI responses
-
-Clean Modular Structure (routes, services, middleware)
-
-Environment Config with dotenv
-
-All AI routes protected with JWT
-
-
-src/
- ├─ routes/
- │   └─ ai.js         # AI endpoints
- ├─ services/
- │   └─ aiService.js  # Gemini API integration + prompt engineering
- ├─ middleware/
- │   └─ auth.js       # JWT verification middleware
- └─ server.js         # Express app entry point
+## Project Highlights
+- Implemented **secure RESTful APIs** with JWT authentication.  
+- Integrated **Gemini API** for intelligent response generation.  
+- Designed **scalable service abstraction** for prompt optimization and quick delivery.
